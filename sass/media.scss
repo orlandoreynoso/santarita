@@ -1,0 +1,88 @@
+
+
+@media screen and (max-width:800px){
+	#header #ls{	
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#header #sm{
+	width:100%;
+	justify-content: center;
+	align-items: center;
+	padding:12px;
+}
+
+#header #sm #ubicacion{
+	width:45%;
+}
+
+#header #sm #search{
+	width:45%;
+	padding: 3px;
+}
+
+#header #sm #search .searchbar form{
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+#header #sm #search .searchbar form button{
+	margin:0px;
+}
+
+nav #cuadro_menu .menu{
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items:center;
+}
+
+nav #cuadro_menu .menu li a{
+	padding: 16px 10px 16px 10px;
+}
+
+/*
+#iglesia{
+	background-color:#ffffff;
+	min-height: 50px;
+	display: flex;
+	flex-flow: row wrap;
+	box-sizing: border-box;
+	justify-content: center;
+}
+*/
+#iglesia #div1{
+	width: 40%;
+	padding: 10px 10px 10px 10px;
+}
+
+
+#reflexiones .diario{
+	width: 100%;
+}
+
+
+#home #crecimiento{
+	width: 100%;
+	order: 2;
+}
+
+#home #entradas{
+	width: 100%;
+	order: 1;
+}
+
+#contenido_general #der{ 
+	width: 95%;
+	margin: 0px auto;
+}
+
+#contenido_general #iz{ 
+	width: 95%;
+	margin: 0px auto;	
+}
+
+}

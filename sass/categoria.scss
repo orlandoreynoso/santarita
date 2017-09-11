@@ -1,0 +1,349 @@
+#descripcion{
+	padding:10px 10px 20px 10px;
+	margin-bottom: 20px;
+	list-style: none;
+}
+
+#descripcion p{
+	margin-bottom: 7px;
+}
+
+#descripcion img{
+	display:block;
+	margin: 15px auto;
+	border: 4px solid $grisclaro;
+	@include sombra();
+	clear: both;
+}
+
+
+#descripcion p:first-child{
+	color: $rosa;
+	font-weight: bold;
+}
+
+#listado_cat{
+	padding:10px 10px 30px 10px;
+	margin-bottom: 50px;
+	list-style: none;
+	border-bottom: 1px solid $verde2;
+
+}
+
+#listado_cat .categories .tit_cat{
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+#responsables{
+	padding:10px;
+}
+
+#responsables p{
+	font-size: 1.1em;
+	font-style: italic;		
+}
+
+#responsables p span{
+	color:$celeste;
+}
+
+/*
+#listado_cat .categories .tit_cat:after{
+	content: ' >>';
+}
+*/
+#listado_cat .categories{
+	display:flex;
+	flex-flow: column wrap;
+}
+
+#listado_cat .categories .cat-item{
+	list-style: none;	
+}
+
+#listado_cat .categories .cat-item a{
+	color: $celeste;
+}
+
+#listado_cat .categories .cat-item a:hover{
+	color: $verde2;
+}
+
+#contenido_general{
+	min-height: 100px;
+	box-sizing: border-box;
+	display:flex;
+	flex-flow: row wrap;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	justify-content: space-between;
+}
+
+#contenido_general #der{
+	width: 68%;
+	min-height: 50px;
+	background-color: $blanco;
+	line-height: 1.5em;
+	font-size: 1.1em;
+	color: #404040;
+	font-family: 'quattrocento_sansregular';
+	box-sizing: border-box;
+}
+
+
+#contenido_general #der .descripcion_categoria{
+	border-bottom:1px solid $verde2;
+	padding-bottom: 7px;
+	margin-bottom:20px;
+	color: $celeste;
+	width: 100%;
+	clear:both;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+#contenido_general #der .descripcion_categoria #name_cat{
+	width: 58%;
+	display: flex;
+	color: $verde2;
+}
+
+#contenido_general #der .descripcion_categoria #name_cat .cat{
+	margin-right:4px;
+	display: block;
+}
+
+
+#contenido_general #der .descripcion_categoria #name_cat ul{
+	list-style: none;
+	text-decoration: none;
+}
+
+#contenido_general #der .descripcion_categoria #fecha{
+	width: 38%;
+	text-align:right;
+}
+
+
+#contenido_general #der address{
+	border-top:1px solid $verde2;
+	padding-top: 7px;
+	margin-top:20px;
+	text-align: right;
+	color: $celeste;
+	width: 100%;
+	clear:both;
+}
+
+#contenido_general #der #titulo{
+	background-color:$verde2;
+	padding: 24px 0px 17px 25px;
+	box-sizing:border-box;
+	color:$blanco;
+	margin-bottom:10px;
+}
+
+#contenido_general #der #titulo a{
+	color:$rosa;
+	font-weight: bold;
+	padding:0px 4px 0px 4px; 
+}
+
+#contenido_general #der #titulo a:hover{
+	color:$grisoscuro;
+	font-weight: bold;
+}
+
+#contenido_general #der #titulo h3{
+	font-size: 1.1em;
+	color:$blanco;
+	font-family: 'oswaldbold';
+	text-transform:uppercase;
+	text-align: center;
+}
+
+
+#contenido_general #der h2{
+	font-weight:bold;
+	font-size: 1.8em;
+	margin:15px 0px 10px 0px;
+	padding:8px 0px 0px 10px;
+	color: $celeste;
+	line-height: 1.1em;
+	text-align:left;
+}
+
+#contenido_general #der h1{
+	font-weight:bold;
+	font-size: 1.8em;
+	line-height: 1.1em;
+	margin:15px 0px 10px 0px;
+	padding:8px 0px 0px 10px;
+	color: $verde2;
+	text-align:left;	
+}
+
+#der .entrada-noticias{
+	background-color: $blanco;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+
+#der .entrada-noticias .fecha{
+	width: 100%;
+	padding:10px;
+	color:$verde2;
+	font-weight:bold;
+}
+
+#der .entrada-noticias .contenido{
+	width: 100%;
+	display: flex;
+	box-sizing: border-box;
+	padding:10px;
+}
+
+#der .entrada-noticias .contenido .thumb{
+	width: 28%;
+	
+}
+
+#der .entrada-noticias .contenido .thumb img{
+	height:auto;
+	display:inline-block;
+	float:left;
+	margin-right:7px;
+	@include sombra();
+	@include borde(2px,$blanco);
+	width: 90%;
+}
+
+#der .entrada-noticias .contenido img:hover{
+	@include opacidad(50);
+	@include transicion_a();
+	@include sombra_hover();
+}
+
+#der .entrada-noticias .contenido .con{
+	color: $celeste;
+	line-height: 1.3em;
+	font-size: 1.1em;
+	text-decoration:none;
+	width: 78%;
+	border-bottom: 1px solid $celeste;
+	padding-bottom:5px;	
+}
+
+#der .entrada-noticias .contenido .con a{
+	color: $celeste;
+	line-height: 1.4em;
+	font-size: 1.2em;
+	text-transform: lowercase;
+	display: block;
+}
+
+#der .entrada-noticias .contenido .con a:hover{
+	color:$verde2;
+}
+
+#der .entrada-noticias .contenido .con a:first-letter{
+	text-transform: uppercase;
+}
+
+
+#info{
+	line-height: 1.2em;
+	font-size: 1em;
+	color: #404040;
+	font-family: 'quattrocento_sansregular';
+	text-align:justify;
+}
+	
+#contenido_general #iz{
+	width: 28%;
+	min-height: 50px;
+	background-color: $grisclaro;
+	padding: 10px;
+}
+
+
+#iz #entradas #recientes{
+	margin-bottom: 20px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+}
+
+#iz #entradas #recientes .list{
+	padding:5px;
+	margin-bottom: 5px;
+	padding-bottom: 9px;
+	overflow:hidden;
+	border-bottom: 1px solid $celeste;
+	text-transform: lowercase;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+#iz #entradas #recientes .list a:first-letter{
+	text-transform: uppercase;
+}
+
+#iz #entradas #titulo_entradas{
+	background-color:$celeste;
+	padding: 24px 0px 17px 25px;
+	box-sizing:border-box;
+}
+
+#iz #entradas #titulo_entradas h3{
+	font-size: 1.1em;
+	color:$blanco;
+	font-family: 'oswaldbold';
+	text-transform:uppercase;
+	text-align: center;
+}
+
+#iz #entradas #recientes .thumb{
+	width: 20%;
+	
+}
+
+#iz #entradas #recientes .thumb img{
+	height:auto;
+	display:inline-block;
+	float:left;
+	margin-right:7px;
+	@include sombra();
+	@include borde(2px,$blanco);
+	width: 90%;
+
+}
+
+#iz #entradas #recientes .thumb img:hover{
+	@include opacidad(50);
+	@include transicion_a();
+	@include sombra_hover();
+}
+
+#iz #entradas #recientes .title{
+	color: $celeste;
+	line-height: 1.3em;
+	font-size: 1.1em;
+	text-decoration:none;
+	width: 78%;
+}
+
+#iz #entradas #recientes .title:hover{
+	color:$rosa;
+	@include transicion_a();
+}
+
+#iz #entradas #recientes .bla .title:first-letter{
+	text-transform: uppercase;
+}

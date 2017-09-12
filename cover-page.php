@@ -28,7 +28,7 @@ Template Name: coverPage Santa rita
   <div class="container">
      <div class="row">
         <div class="col-xs-12 col-md-8 con">
-          <div class="breadcrum">
+          <div class="breadcrumb">
             <div class="mapeo"><?php the_breadcrumb(); ?></div>
           </div>
           <div class="interiores">

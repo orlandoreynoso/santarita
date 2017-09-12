@@ -1,5 +1,51 @@
+/*======= vien de coverpage.sass*/
 .m-iparroquial
 	background-color: $m-grisclaro
 	box-sizing: border-box
+	padding-bottom: 20px
 	width: 100%
-  @include titulos_secciones($m-rojo)
+	@include titulos_secciones($m-rojo,1.5em)
+/*=============== cuadro de selecciona tu iglesia ====*/
+.m-iparroquial
+	#iglesia
+		min-height: 50px
+		display: flex
+		flex-flow: row wrap
+		box-sizing: border-box
+		justify-content: center
+		#div1
+			width: 33%
+			min-height: 150px
+			padding: 10px 10px 10px 10px
+			text-align: center
+			box-sizing: border-box
+			@media screen and (max-width: 600px)
+				width: 50%
+				padding: 5px
+			a
+				color: $m-azul
+				font-family: 'Oswald', sans-serif
+				text-transform: uppercase
+				text-decoration: none
+				padding: 0px 0px 8px 0px
+				display: block
+				&:hover
+					color: $m-rojo
+					transition: 0.5s ease
+					-o-transition: 0.5s ease
+					-webkit-transition: 0.5s ease
+				span
+					margin-top: 20px
+					display: block
+				img
+					width: 100%
+			img
+				&:hover
+					transition: 0.5s ease
+					-o-transition: 0.5s ease
+					-webkit-transition: 0.5s ease
+					filter: alpha(opacity=50)
+					-moz-opacity: 1.0
+					opacity: 0.5
+					-khml-opacity: 1.0
+/*===============================================================*/

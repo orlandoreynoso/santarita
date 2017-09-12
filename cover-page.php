@@ -27,8 +27,8 @@ Template Name: coverPage Santa rita
 <section class="con-general">
   <div class="container">
      <div class="row">
-          <div class="col-xs-12 col-md-8 con">
-          <div class="titulo">
+        <div class="col-xs-12 col-md-8 con">
+          <div class="breadcrum">
             <div class="mapeo"><?php the_breadcrumb(); ?></div>
           </div>
           <div class="interiores">
@@ -39,7 +39,7 @@ Template Name: coverPage Santa rita
               endwhile;
             ?>
           </div>
-       </div>
+       </div><!-- FINALIZA DIV CON -->
         <div class="col-xs-12 col-md-4 side">
           <div class="entradas">
             <div class="titulo_entradas">
@@ -49,10 +49,11 @@ Template Name: coverPage Santa rita
               <?php get_sidebar(); ?>
             </div>
           </div>
-        </div>
+        </div><!-- finaliza side  -->
      </div>
   </div>
-</section>
+</section><!-- finaliza section con-general  -->
+
 <section class="m-recomendaciones">
 <div class="container">
   <div class="row">

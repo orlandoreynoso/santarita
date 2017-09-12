@@ -1,94 +1,363 @@
-/*
-Error: Undefined variable: "$ctt".
-        on line 13 of C:/xampp/htdocs/mscgt/rectoria-de-santa-rita/wp-content/themes/2017SantaRita/sasst/_sitemixins.sass
-        from line 2 of estilo.sass
+.m-recomendaciones .titulo-recomendaciones {
+  text-align: center;
+  padding: 0px 0px 30px 0px; }
 
-8: @import sitebanner
-9: @import siteanunciosparroquiales
-10: 
-11: //@import variables
-12: 
-13: // @import coverpage
-14: // @import body
-15: // @import escuela
-16: // @import pastorales
-17: // @import paginacion
-18: // @import comunidades
+* {
+  margin: 0px;
+  padding: 0px; }
 
-Backtrace:
-C:/xampp/htdocs/mscgt/rectoria-de-santa-rita/wp-content/themes/2017SantaRita/sasst/_sitemixins.sass:13
-estilo.sass:2
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `map'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$ctt\".\A         on line 13 of C:/xampp/htdocs/mscgt/rectoria-de-santa-rita/wp-content/themes/2017SantaRita/sasst/_sitemixins.sass\A         from line 2 of estilo.sass\A \A 8: @import sitebanner\A 9: @import siteanunciosparroquiales\A 10: \A 11: //@import variables\A 12: \A 13: // @import coverpage\A 14: // @import body\A 15: // @import escuela\A 16: // @import pastorales\A 17: // @import paginacion\A 18: // @import comunidades"; }
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  background-color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px; }
+
+header {
+  width: 100%;
+  background-color: #ffffff; }
+
+/*========= Header main ===================== */
+.m-header {
+  margin: 0px;
+  padding: 0px; }
+  .m-header .ls {
+    padding-bottom: 10px;
+    padding-top: 4px; }
+    .m-header .ls .logo {
+      display: block;
+      max-width: 300px;
+      min-width: 300px;
+      height: auto; }
+      .m-header .ls .logo img {
+        width: 90%;
+        display: block;
+        vertical-align: top; }
+        .m-header .ls .logo img:hover {
+          filter: alpha(opacity=80);
+          -moz-opacity: 1;
+          opacity: calc(80 / 100);
+          -khml-opacity: 1;
+          transition: 0.5s ease;
+          background-color: "#ffffff"; }
+
+.m-header .sm {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 20px; }
+  .m-header .sm .ubicacion {
+    text-align: center;
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 5px; }
+    .m-header .sm .ubicacion .icon {
+      color: #b20013;
+      margin-right: 5px; }
+    .m-header .sm .ubicacion .search {
+      width: 100%;
+      margin: 0px auto;
+      padding-top: 5px; }
+      .m-header .sm .ubicacion .search .searchbar {
+        text-align: center; }
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="email"] {
+  box-sizing: border-box;
+  padding: 7px 10px;
+  color: #333333;
+  font-size: 0.9em;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #b20013;
+  font-weight: 300; }
+  input[type="text"]:focus,
+  input[type="tel"]:focus,
+  input[type="number"]:focus,
+  input[type="email"]:focus {
+    color: #009FFF;
+    border: 1px solid #46b271; }
+
+textarea {
+  box-sizing: border-box;
+  padding: 7px 10px;
+  color: #b20013;
+  font-size: 0.9em;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #b20013;
+  font-weight: 300; }
+
+input[type="submit"],
+input[type="button"],
+button[type="submit"] {
+  box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 7px 10px;
+  color: #b20013;
+  font-size: 0.9em;
+  background: none;
+  border-radius: 5px;
+  border: none;
+  font-weight: 300;
+  cursor: pointer; }
+  input[type="submit"]:hover,
+  input[type="button"]:hover,
+  button[type="submit"]:hover {
+    color: #009FFF; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  color: #b20013;
+  font-weight: 600; }
+
+.e-menu {
+  background-color: #b20013;
+  width: 100%;
+  padding: 5px; }
+  .e-menu .row {
+    padding: 0px;
+    margin: 0px; }
+
+.navbar-header {
+  display: none; }
+
+.navbar-default {
+  background-color: #b20013; }
+  .navbar-default .navbar-toggle .icon-bar {
+    color: #ffffff;
+    background-color: #ffffff; }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+    color: #b20013; }
+    .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+      color: #b20013;
+      background-color: #b20013; }
+  .navbar-default .navbar-brand {
+    color: #ffffff; }
+  .navbar-default .navbar-nav > li > a {
+    background-color: #b20013;
+    color: #ffffff; }
+    .navbar-default .navbar-nav > li > a li a:focus {
+      color: #ffffff;
+      background-color: #b20013; }
+    .navbar-default .navbar-nav > li > a:hover {
+      background-color: #ffffff;
+      color: #b20013; }
+    .navbar-default .navbar-nav > li > a:focus {
+      color: #ffffff;
+      background-color: transparent; }
+  .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover {
+    color: #b20013;
+    background-color: #ffffff; }
+  .navbar-default .navbar-nav > .open > a:focus,
+  .navbar-default .navbar-nav > .open > a:hover {
+    background-color: #ffffff;
+    color: #b20013; }
+
+.navbar {
+  border: none;
+  padding: 0px;
+  margin: 0px; }
+
+nav {
+  padding: 20px;
+  width: 100%; }
+  nav #cuadro_menu {
+    background-color: #b20013; }
+    nav #cuadro_menu .menu {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      margin: 0px;
+      padding: 0px;
+      background-color: #d53132; }
+      nav #cuadro_menu .menu li {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        transition: 0.5s ease;
+        -o-transition: 0.5s ease;
+        -webkit-transition: 0.5s ease; }
+        nav #cuadro_menu .menu li a {
+          color: #ffffff;
+          text-decoration: none;
+          padding: 18px 10px 18px 10px;
+          display: block; }
+          nav #cuadro_menu .menu li a:hover {
+            color: #333333;
+            transition: 0.5s ease;
+            -o-transition: 0.5s ease;
+            -webkit-transition: 0.5s ease;
+            background-color: #ffffff; }
+        nav #cuadro_menu .menu li ul {
+          display: none;
+          background-color: #46b271;
+          position: absolute;
+          z-index: 900; }
+        nav #cuadro_menu .menu li:hover ul {
+          display: block; }
+
+/*-- */
+.slide {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #ffffff; }
+  .slide .metaslider {
+    box-sizing: border-box;
+    margin: 0px auto;
+    text-align: center;
+    min-height: 100%;
+    max-width: 100%;
+    min-width: 100%; }
+    .slide .metaslider .flexslider {
+      padding: 0px;
+      margin: 0px;
+      background-color: green; }
+      .slide .metaslider .flexslider .flex-control-nav {
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 100%;
+        bottom: 0px;
+        z-index: 100;
+        height: auto; }
+  .slide .soliloquy-container {
+    width: 100%;
+    margin: 0px auto; }
+  .slide img {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px auto;
+    vertical-align: top; }
+
+/*======= vien de coverpage.sass */
+.m-iparroquial {
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  width: 100%; }
+  .m-iparroquial .titulos_secciones {
+    text-align: center;
+    padding: 40px; }
+    .m-iparroquial .titulos_secciones h3 {
+      font-size: 1.5em;
+      color: #b20013;
+      text-transform: uppercase;
+      font-family: "Oswald", sans-serif;
+      margin: 0px;
+      padding: 0px; }
+      @media screen and (max-width: 600px) {
+        .m-iparroquial .titulos_secciones h3 {
+          width: 100%;
+          font-size: 1.2em; } }
+
+/*=============== cuadro de selecciona tu iglesia ==== */
+.m-iparroquial #iglesia {
+  min-height: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  justify-content: center; }
+  .m-iparroquial #iglesia #div1 {
+    width: 33%;
+    min-height: 150px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    box-sizing: border-box; }
+    @media screen and (max-width: 600px) {
+      .m-iparroquial #iglesia #div1 {
+        width: 50%;
+        padding: 5px; } }
+    .m-iparroquial #iglesia #div1 a {
+      color: #293449;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 0px 0px 8px 0px;
+      display: block; }
+      .m-iparroquial #iglesia #div1 a:hover {
+        color: #b20013;
+        transition: 0.5s ease;
+        -o-transition: 0.5s ease;
+        -webkit-transition: 0.5s ease; }
+      .m-iparroquial #iglesia #div1 a span {
+        margin-top: 20px;
+        display: block; }
+      .m-iparroquial #iglesia #div1 a img {
+        width: 100%; }
+    .m-iparroquial #iglesia #div1 img:hover {
+      transition: 0.5s ease;
+      -o-transition: 0.5s ease;
+      -webkit-transition: 0.5s ease;
+      filter: alpha(opacity=50);
+      -moz-opacity: 1;
+      opacity: 0.5;
+      -khml-opacity: 1; }
+
+/*=============================================================== */
+.con-general {
+  background-color: #ffffff;
+  padding-top: 10px; }
+  .con-general .con {
+    margin-bottom: 20px; }
+    .con-general .con img {
+      max-width: 100%;
+      height: auto; }
+    .con-general .con .alignleft {
+      float: left;
+      margin: 20px 20px 20px 0px; }
+    .con-general .con .alignright {
+      float: right;
+      margin: 20px 0px 20px 20px; }
+    .con-general .con .aligncenter {
+      width: 100%;
+      height: auto;
+      margin: 5px auto; }
+    .con-general .con .breadcrumb {
+      background-color: none;
+      padding: 10px;
+      color: #ffffff; }
+      .con-general .con .breadcrumb .mapeo {
+        color: #293449; }
+        .con-general .con .breadcrumb .mapeo span {
+          margin-left: 5px;
+          margin-right: 5px; }
+          .con-general .con .breadcrumb .mapeo span a {
+            color: #293449;
+            text-decoration: none;
+            transition: 0.5s ease; }
+            .con-general .con .breadcrumb .mapeo span a:hover {
+              color: #46b271; }
+  .con-general .side {
+    background-color: green; }
+
+/*# sourceMappingURL=estilo.css.map */

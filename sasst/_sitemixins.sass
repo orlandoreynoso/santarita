@@ -1,24 +1,36 @@
-//cuadro para varios titulos
+@mixin bread($bbcolor,$btcolor)
+	background-color: $bbcolor
+	padding: 10px
+	color: $btcolor
+	.mapeo
+		color: $m-azul
+		span
+			margin-left: 5px
+			margin-right: 5px
+			a
+				color: $m-azul
+				text-decoration: none
+				transition: 0.5s ease
+				&:hover
+					color: $m-verde
 @mixin titulo_cuadro($color)
 	background-color: $color
 	padding: 24px 0px 17px 25px
 	box-sizing: border-box
-/*==== titulos principales ==================*/
-@mixin titulos_secciones($ctt)
-.titulos_secciones
-	text-align: center
-	padding: 40px
-	h3
-		font-size: 1.5em
-		color: $ctt
-		text-transform: uppercase
-		font-family: 'Oswald', sans-serif
-		margin: 0px
-		padding: 0px
-		@media screen and (max-width: 600px)
-			width: 100%
-			font-size: 1.2em
-/*========== para las imágenes dentro del thumb ===============*/
+@mixin titulos_secciones($ctt,$letra)
+	.titulos_secciones
+		text-align: center
+		padding: 40px
+		h3
+			font-size: $letra
+			color: $ctt
+			text-transform: uppercase
+			font-family: 'Oswald', sans-serif
+			margin: 0px
+			padding: 0px
+			@media screen and (max-width: 600px)
+				width: 100%
+				font-size: 1.2em
 @mixin m_img()
 	img
 		max-width: 100%
@@ -35,7 +47,6 @@
 			opacity: 0.7
 			-khml-opacity: 1.0
 			transition: 0.5s ease
-// hover y opacidad para las imágenes
 @mixin site_img_hover_opacidad($opacidad,$bcolor)
 	filter: alpha(opacity=$opacidad)
 	-moz-opacity: 1.0
@@ -43,3 +54,17 @@
 	-khml-opacity: 1.0
 	transition: 0.5s ease
 	background-color: $bcolor
+@mixin imagen100
+	img
+		max-width: 100%
+		height: auto
+	.alignleft
+		float: left
+		margin: 20px 20px 20px 0px
+	.alignright
+		float: right
+		margin: 20px 0px 20px 20px
+	.aligncenter
+		width: 100%
+		height: auto
+		margin: 5px auto

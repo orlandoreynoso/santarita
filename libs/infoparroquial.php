@@ -1,4 +1,4 @@
-<div class="titulos_secciones">
+<div class="titulo-anuncios">
 	<h3>Anuncios parroquiales</h3>
 </div>
 <div class="c-info" id="iglesia">

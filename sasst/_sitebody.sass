@@ -1,10 +1,17 @@
+.section-bienvenida
+  width: var(--sizem)
+  padding: 20px
+  .texto-bienvenida
+    text-align: center
+  .i-bienvenida
+    @include tituloafter($m-azul,$m-rojo)
 .con-general
   background-color: $blanco
   padding-top: 10px
   .con
     margin-bottom: 20px
     @include imagen100
-    .breadcrumb
+    .bread
       @include bread(none,$blanco)
   .side
     background-color: green

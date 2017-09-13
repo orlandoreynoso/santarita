@@ -2,9 +2,10 @@
 .m-iparroquial
 	background-color: $m-grisclaro
 	box-sizing: border-box
-	padding-bottom: 20px
+	padding: 30px
 	width: 100%
-	@include titulos_secciones($m-rojo,1.5em)
+	.titulo-anuncios
+		@include tituloafter($m-azul,$m-rojo)
 /*=============== cuadro de selecciona tu iglesia ====*/
 .m-iparroquial
 	#iglesia
@@ -14,13 +15,13 @@
 		box-sizing: border-box
 		justify-content: center
 		#div1
-			width: 33%
+			width: calc(var(--sizem)/3)
 			min-height: 150px
 			padding: 10px 10px 10px 10px
 			text-align: center
 			box-sizing: border-box
 			@media screen and (max-width: 600px)
-				width: 50%
+				width: calc(var(--sizem)/2)
 				padding: 5px
 			a
 				color: $m-azul

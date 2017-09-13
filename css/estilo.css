@@ -302,7 +302,7 @@ nav {
   box-sizing: border-box;
   justify-content: center; }
   .m-iparroquial #iglesia #div1 {
-    width: calc(var(--sizem)/3);
+    width: calc(var(--sizem)/4);
     min-height: 150px;
     padding: 10px 10px 10px 10px;
     text-align: center;
@@ -317,7 +317,10 @@ nav {
       text-transform: uppercase;
       text-decoration: none;
       padding: 0px 0px 8px 0px;
-      display: block; }
+      display: block;
+      background-color: #ffffff;
+      margin: 10px;
+      border: 1px solid #ffffff; }
       .m-iparroquial #iglesia #div1 a:hover {
         color: #b20013;
         transition: 0.5s ease;
@@ -327,15 +330,12 @@ nav {
         margin-top: 20px;
         display: block; }
       .m-iparroquial #iglesia #div1 a img {
-        width: 100%; }
-    .m-iparroquial #iglesia #div1 img:hover {
-      transition: 0.5s ease;
-      -o-transition: 0.5s ease;
-      -webkit-transition: 0.5s ease;
-      filter: alpha(opacity=50);
-      -moz-opacity: 1;
-      opacity: 0.5;
-      -khml-opacity: 1; }
+        width: 100%;
+        height: 100%;
+        background-size: cover; }
+        .m-iparroquial #iglesia #div1 a img:hover {
+          transition: 0.5s ease;
+          opacity: 0.5; }
 
 /*=============================================================== */
 .section-bienvenida {

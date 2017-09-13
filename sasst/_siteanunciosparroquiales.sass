@@ -15,7 +15,7 @@
 		box-sizing: border-box
 		justify-content: center
 		#div1
-			width: calc(var(--sizem)/3)
+			width: calc(var(--sizem)/4)
 			min-height: 150px
 			padding: 10px 10px 10px 10px
 			text-align: center
@@ -30,6 +30,9 @@
 				text-decoration: none
 				padding: 0px 0px 8px 0px
 				display: block
+				background-color: $blanco
+				margin: 10px
+				border: 1px solid $blanco
 				&:hover
 					color: $m-rojo
 					transition: 0.5s ease
@@ -40,13 +43,9 @@
 					display: block
 				img
 					width: 100%
-			img
-				&:hover
-					transition: 0.5s ease
-					-o-transition: 0.5s ease
-					-webkit-transition: 0.5s ease
-					filter: alpha(opacity=50)
-					-moz-opacity: 1.0
-					opacity: 0.5
-					-khml-opacity: 1.0
+					height: 100%
+					background-size: cover
+					&:hover
+						transition: 0.5s ease
+						opacity: 0.5
 /*===============================================================*/

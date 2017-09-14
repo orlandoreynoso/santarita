@@ -26,10 +26,4 @@
 			<span>Calendario de Eventos</span>
 		</a>
 	</div>
-	<!-- div id="div1">
-		<a href="<?php // bloginfo('url'); ?>/rectoria-de-santa-rita/">
-			<img src="<?php // echo IMAGES.'/santarita.png'; ?>" alt="">
-			<span>Rectoria de Santa Rita</span>
-		</a>
-	</div -->
 </div>

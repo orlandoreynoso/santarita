@@ -2,6 +2,8 @@
 .m-header
   margin: 0px
   padding: 0px
+  @media screen and ( max-width: 640px)
+    display: none
   .ls
     padding-bottom: 10px
     padding-top: 4px
@@ -15,7 +17,7 @@
         display: block
         vertical-align: top
         &:hover
-          @include site_img_hover_opacidad(80,'#ffffff')
+          @include site_img_hover_opacidad(80,$blanco)
 .m-header
   .sm
     display: flex

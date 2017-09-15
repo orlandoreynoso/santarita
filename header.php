@@ -28,13 +28,5 @@
 			</div>
 		</div>
 	</div>
-<div class="e-menu">
-	<div class="container">
-		<div class="row">
-				<div class="col-md-12">
-					<?php // include (TEMPLATEPATH . '/libs/menuviejo.php');  ?>
-					<?php get_template_part( 'template/header', 'menu') ?>
-			</div>
-		</div>
-	</div>
-</div>
+	<?php // include (TEMPLATEPATH . '/libs/menuviejo.php');  ?>
+	<?php get_template_part( 'template/header', 'menu') ?>

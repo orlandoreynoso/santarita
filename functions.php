@@ -46,7 +46,7 @@ function wpt_register_css() {
 add_action( 'wp_enqueue_scripts', 'wpt_register_css' );
 */
 
-function showMenu(){
+function showMenuboostrap(){
     $args = array(
         'menu'=> '',
         'menu_id' => 'menu-principal', /*Lo que tienen el Ul primero*/
@@ -59,6 +59,22 @@ function showMenu(){
     );
     wp_nav_menu($args);
 }
+
+function showMenu(){
+
+    $args = array(
+        'menu'=> '',
+        'menu_id' => 'menu-principal', /*Lo que tienen el Ul primero*/
+        'menu_class' => 'menu nav navbar-nav', /* tambien lo que contiene el  Ul primero*/
+        'container'=> false,  /*ESto es lo que contiene al menu por ejemplo nav, pero lo quito ya que en el header incluyo el nav para controlarlo.*/
+        'container_id' =>'azucar',
+        'container_class' =>'oro',
+        'before' =>'', //Esto envuelve el a
+        'after' =>'', // Esto va despues de cada a
+    );
+    wp_nav_menu($args);
+}
+
 
 // Register custom navigation walker
 
@@ -71,12 +87,26 @@ wp_nav_menu( array(
     'walker' => new wp_bootstrap_navwalker())
 );
 */
+
+function logo(){
+$logo = IMAGES.'/santarita.png'; ?>
+<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo $logo; ?>" alt="Misioneros del sagrado Corazón de Jesús"></a>
+<?php
+}
+
+function logoMovil(){
+$logo = IMAGES.'/logo.png'; ?>
+<a class="logo navbar-brand text-left" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo $logo; ?>" alt="Misioneros del sagrado Corazón de Jesús"></a>
+<?php
+}
+
+/*
 function logo(){
     $logo = IMAGES.'/santarita.png';
     echo '<a class="logo" href="';
     echo bloginfo('url');
     echo '"><img src="'.$logo.'" alt="Misioneros del sagrado Corazón de Jesús"></a>';
-}
+} */
 function slogan(){
     echo '<a href="';
     echo bloginfo('url');

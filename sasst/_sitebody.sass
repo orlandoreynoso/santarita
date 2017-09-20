@@ -1,6 +1,7 @@
 .section-bienvenida
   width: var(--sizem)
   padding: 20px
+  background-color: $m-grisclaro
   .texto-bienvenida
     text-align: center
   .i-bienvenida
@@ -13,9 +14,19 @@
     @include imagen100
     .bread
       @include bread(none,$blanco)
-  .side
-    background-color: green
-
+/*=========remodelacion=============*/
+.m-remodelacion
+  background-color: $blanco
+  padding: 20px
+  text-align: center
+  .title-recomendacion
+    @include tituloafter($m-azul,$m-rojo)
+  .contenidos-c
+    .thumb
+      display: block
+    .link
+      margin-top: 10px
+      display: block
 /*===================== Entradas recientes cover page ====================*/
 .m-entradas-recientes
   width: var(--sizem)

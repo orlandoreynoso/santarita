@@ -28,6 +28,19 @@ Template Name: coverPage Santa rita
     </div>
   </div>
 </section>
+
+<section class="m-remodelacion">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <article>
+        <?php get_template_part( 'template/cover','remodelacion' ); ?>
+      </article>
+    </div>
+  </div>
+</div>
+</section>
+
 <section class="m-iparroquial">
 <div class="container">
   <div class="row">

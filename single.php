@@ -15,18 +15,18 @@
   <div class="container">
      <div class="row">
         <div class="col-xs-12 col-md-8 con">
-            <div class="titulo">
-            <div class="mapeo"><?php dimox_breadcrumbs(); ?></div>
-            </div>
-            <div class="contenido">
-              <div class="date-cat">
+            <div class="interiores">
+              <div class="titulo">
+                <div class="mapeo"><?php dimox_breadcrumbs(); ?></div>
+              </div>
+              <!-- div class="date-cat">
                 <div class="row">
                     <div class="col-xs-12 col-md-6 fecha"><i class="icon-date fa fa-calendar"></i><?php the_time('j F, Y'); ?></div>
                     <div class="col-xs-12 col-md-6 descripcion_categoria"><i class="icon-file fa fa-file"></i><a class="cat"><?php the_category (' , '); ?></a></div>
                 </div>
-              </div>
+              </div -->
               <div class="info">
-                <?php  echo "Esot en el single"; ?>
+                <?php //  echo "Esot en el single"; ?>
             <!-- h1><?php //   the_title(); ?></h1 -->
              <?php
               while ( have_posts() ) : the_post();

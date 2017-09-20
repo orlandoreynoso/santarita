@@ -2,11 +2,13 @@
 .m-header
   margin: 0px
   padding: 0px
+  width: 100%
   @media screen and ( max-width: 640px)
     display: none
   .ls
     padding-bottom: 10px
     padding-top: 4px
+    box-sizing: border-box
     .logo
       display: block
       max-width: 300px
@@ -22,15 +24,18 @@
   .sm
     display: flex
     flex-flow: row wrap
-    justify-content: center
-    align-items: center
-    align-content: center
+    justify-content: flex-end
+    align-items: flex-end
+    align-content: flex-end
     padding-top: 20px
+    box-sizing: border-box
+    text-align: right
     .ubicacion
-      text-align: center
+      text-align: right
       width: 100%
       font-family: 'Oswald', sans-serif
       margin-bottom: 5px
+      margin-right: 20%
       .icon
         color: $m-rojo
         margin-right: 5px

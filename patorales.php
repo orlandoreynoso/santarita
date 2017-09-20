@@ -12,7 +12,7 @@
           <div class="titulo">
             <div class="mapeo"><?php the_breadcrumb(); ?></div>
           </div>
-              <?php 
+              <?php
 
                 $variable = get_the_ID(); /*
 
@@ -23,21 +23,22 @@
 
               ?>
           <div class="agrupaciones-desglose">
+            <?php echo "template pastorales"; ?>
                 <div class="c-agrupaciones">
                     <?php $the_query = new WP_Query(get_agrupaciones($variable,-1));   ?>
                     <?php // $the_query = new WP_Query(get_agrupaciones(2883,-1));    ?>
                     <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-                    <div class="list"> 
+                    <div class="list">
                     <div class="todo">
                       <a class="ir-agrupacion" href="<?php the_permalink(); ?>">
                         <div class="thumb" ><?php the_post_thumbnail('full'); ?></div>
                         <h5><?php the_title(); ?></h5>
-                      </a> 
+                      </a>
                       <div class="exe"><?php excerpt('15'); ?> </div>
                     </div>
                     </div>
                     <?php endwhile;?>
-                </div>            
+                </div>
           </div>
           <hr>
           <div class="interiores">

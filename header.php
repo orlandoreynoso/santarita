@@ -9,14 +9,14 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="m-header">
-				<div class="col-xs-12 col-sm-8 col-md-6">
+		<div class="m-header">
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
 					<div class="ls">
 						<?php logo(); ?>
 					</div>
 				</div>
-				<div class="col-xs-12  col-sm-4 col-md-6">
+				<div class="col-sm-6 col-md-8">
 					<div class="sm">
 						<div class="ubicacion">
 							<span class="icon fa fa-map-marker"></span>

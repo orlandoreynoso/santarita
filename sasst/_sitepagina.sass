@@ -1,0 +1,72 @@
+.con-general
+  .con
+    .interiores
+      padding-top: 20px
+  .side
+    padding-top: 20px
+    .entradas
+      background-color: $grisclaro
+      .titulo_entradas
+        @include titulo_cuadro($celeste)
+        h3
+          font-size: 1.2em
+          color: $blanco
+          text-transform: uppercase
+          font-family: 'Oswald', sans-serif
+          margin: 0px
+          padding: 0px
+  .side
+    .entradas
+      .recientes
+        margin-bottom: 20px
+        padding-left: 10px
+        padding-right: 10px
+        padding-top: 10px
+        .list
+          padding: 5px
+          margin-bottom: 5px
+          padding-bottom: 9px
+          overflow: hidden
+          border-bottom: 1px solid #009FFF
+          text-transform: lowercase
+          display: flex
+          flex-flow: row wrap
+          justify-content: space-between
+          align-items: center
+          box-sizing: border-box
+          .thumb
+            width: 20%
+            img
+              height: auto
+              display: inline-block
+              float: left
+              margin-right: 7px
+              box-shadow: 0 0 8px rgba(0, 0, 0, 0.8)
+              border: 2px solid #ffffff
+              width: 90%
+              &:hover
+                filter: alpha(opacity=50)
+                -moz-opacity: 1.0
+                opacity: 0.5
+                -khml-opacity: 1.0
+                transition: 0.5s ease
+                box-shadow: 0 0 8px rgba(0, 120, 240, 0.8)
+.con-general
+  .side
+    .entradas
+      .recientes
+        .list
+          .title
+            color: #009FFF
+            line-height: 1.3em
+            font-size: 1.1em
+            text-decoration: none
+            width: 78%
+            text-transform: lowercase
+            &:hover
+              color: #d53132
+              transition: 0.5s ease
+              -o-transition: 0.5s ease
+              -webkit-transition: 0.5s ease
+            &:first-letter
+              text-transform: uppercase

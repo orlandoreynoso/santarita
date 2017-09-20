@@ -19,13 +19,13 @@ function estilos_template(){
 	wp_enqueue_style('animate');
 
 	//registrar Js, agregamos al final true para que nuestros Js se cargen en el footer.
-	//wp_register_script('analitics', get_template_directory_uri().'/js/analitycs.js', array(), '1.0.0', true );
+	wp_register_script('analitics', get_template_directory_uri().'/js/analitycs.js', array(), '1.0.0', true );
   wp_register_script('popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js', array('jquery'),'1.12.5', true);
 	wp_register_script('bootstrapjs', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js', array('jquery'),'4.0.0', true);
   wp_register_script('scripts', get_template_directory_uri().'/js/scripts.js', array('jquery'),'1.0.0', true);
 
 	wp_enqueue_script('jquery');
-	//wp_enqueue_script('analitics');
+	wp_enqueue_script('analitics');
   wp_enqueue_script('popper');
 	wp_enqueue_script('bootstrapjs');
 	wp_enqueue_script('scripts');

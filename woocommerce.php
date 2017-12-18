@@ -13,12 +13,8 @@
             <div class="titulo">
               <div class="mapeo"><?php dimox_breadcrumbs(); ?></div>
             </div>
-            <?php echo  'estoy en page';      ?>
-            <?php
-              while ( have_posts() ) : the_post();
-                the_content();
-              endwhile;
-            ?>
+            <?php // echo  'estoy en page';      ?>
+            <?php woocommerce_content(); ?>
           </div>
        </div>
         <div class="col-xs-12 col-md-4 side">

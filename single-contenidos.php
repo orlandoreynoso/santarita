@@ -2,7 +2,7 @@
 <?php
 
 /*
-  Template Name: Contenidos para la comunidad
+  Template Name: single contenido
   Template Post Type: post, page, product, post_type, post type
 */
 

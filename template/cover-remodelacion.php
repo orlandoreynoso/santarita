@@ -1,8 +1,12 @@
 <div class="texto-bienvenida">
-  <?php $the_query = new WP_Query(contenidosPorNombre('page','remodelacion-de-nuestro-templo',1));
+  <?php $the_query = new WP_Query(contenidosPorNombre('page','parroquia-en-marcha/remodelacion-de-nuestro-templo',1));
   while ($the_query -> have_posts()){
-    $the_query -> the_post();
 
+
+    $the_query -> the_post();
+/*
+    echo $id = get_the_ID();
+    echo $nombre = get_the_title(); */
   ?>
   <div class="title-recomendacion">
       <h3><?php the_title(); ?></h3>

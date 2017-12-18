@@ -1,7 +1,7 @@
 <?php
 /*
-  Template Name: Interiores
-  Template Post Type: post, page, product
+  Template Name: single pastorales
+  Template Post Type: post, page, product, pastorales
 */
  get_header();
 ?>
@@ -13,7 +13,7 @@
             <div class="titulo">
               <div class="mapeo"><?php dimox_breadcrumbs(); ?></div>
             </div>
-            <?php echo  'estoy en page';      ?>
+            <?php  echo  'estoy en single pastorales';      ?>
             <?php
               while ( have_posts() ) : the_post();
                 the_content();

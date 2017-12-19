@@ -1,3 +1,36 @@
+@mixin entraditas($columnas)
+	.list		
+		width: calc(var(--sizem)/#{$columnas})
+		min-height: 150px
+		text-align: center
+		box-sizing: border-box
+		a
+			color: $m-azul
+			font-family: 'Oswald', sans-serif
+			text-transform: uppercase
+			font-size: 0.9em
+			text-decoration: none
+			padding: 0px 0px 8px 0px
+			display: block
+			background-color: $blanco
+			margin: 10px
+			h3
+				margin-top: 10px
+				display: block
+				font-size: 1.2em
+			&:hover
+				color: $m-rojo
+				transition: 0.5s ease
+				-o-transition: 0.5s ease
+				-webkit-transition: 0.5s ease
+			.thumb
+				img
+					width: 100%
+					height: 178px
+					background-size: cover
+					&:hover
+						transition: 0.5s ease
+						opacity: 0.5
 @mixin tituloafter($tact,$bcol)
 	padding: 10px
 	width: var(--sizem)

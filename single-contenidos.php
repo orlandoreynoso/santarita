@@ -26,7 +26,7 @@
                 </div>
               </div>
               <div class="info">
-                <?php echo "Estoy en el single de contenidos"; ?>
+                <?php // echo "Estoy en el single de contenidos"; ?>
             <!-- h1><?php //   the_title(); ?></h1 -->
              <?php
               while ( have_posts() ) : the_post();

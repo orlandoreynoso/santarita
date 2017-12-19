@@ -25,7 +25,7 @@ function estilos_template(){
   wp_register_script('scripts', get_template_directory_uri().'/js/scripts.js', array('jquery'),'1.0.0', true);
 
 	wp_enqueue_script('jquery');
-	wp_enqueue_script('analitics');
+	//wp_enqueue_script('analitics');
   wp_enqueue_script('popper');
 	wp_enqueue_script('bootstrapjs');
 	wp_enqueue_script('scripts');

@@ -10,10 +10,10 @@
      <div class="row">
           <div class="col-xs-12 col-md-8 con">
           <div class="interiores">
-            <div class="titulo">
+            <div class="titulo-breadcrumb">
               <div class="mapeo"><?php dimox_breadcrumbs(); ?></div>
             </div>
-            <?php echo  'estoy en page';      ?>
+            <?php // echo  'estoy en page';      ?>
             <?php
               while ( have_posts() ) : the_post();
                 the_content();

@@ -13,7 +13,7 @@
             <div class="titulo">
               <div class="mapeo"><?php dimox_breadcrumbs(); ?></div>
             </div>
-            <?php  echo  'estoy en single contenido cool';      ?>
+            <?php // echo  'estoy en single contenido cool';      ?>
             <?php
               while ( have_posts() ) : the_post();
                 the_content();

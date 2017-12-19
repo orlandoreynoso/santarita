@@ -15,7 +15,7 @@
   <div class="container">
      <div class="row">
         <div class="col-xs-12 col-md-8 con">
-            <div class="titulo">
+            <div class="titulo-breadcrumb">
             <div class="mapeo"><?php dimox_breadcrumbs(); ?></div>
             </div>
             <div class="contenido">

@@ -102,10 +102,12 @@ function slogan(){
     echo '" id="slogan"><h1>Santuario</h1><h2>nuestra señora del sagrado corazón</h2></a>';
 }
 include (TEMPLATEPATH . '/inc/contenidos.php');
+include (TEMPLATEPATH . '/inc/paginacioncpt.php');
 include (TEMPLATEPATH . '/libs/entradas.php'); 
 include (TEMPLATEPATH . '/libs/totop.php'); 
 include (TEMPLATEPATH . '/libs/breadcrumb.php'); 
 include (TEMPLATEPATH . '/files/bread.php');
+include (TEMPLATEPATH . '/files/paginacioncustom.php');
 /*==== n Widget=====*/
 if (function_exists('register_sidebar')) {
     register_sidebar(
